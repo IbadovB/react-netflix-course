@@ -7,6 +7,36 @@
   pointer-events: none;
 }
 
+/*.head-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 0 2.5em;
+}
+
+.netflix {
+  width: 30em;
+  height: 20em;
+}
+
+.searchArea {
+  display: flex;
+  gap: 0.5em;
+}
+
+.mainBox {
+  display: flex;
+  justify-content: center;
+  gap: 8em;
+  align-items: center;
+  }
+
+img {
+  height: 19em;
+  width: 13em;
+}*/
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +62,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
