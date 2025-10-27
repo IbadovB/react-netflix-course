@@ -3,7 +3,7 @@ import { Layout } from "./components/Layout"
 import App from './screens/home/App'
 import { MovieDetails } from "./screens/home/movie/MovieDetails"
 
-export function MainRoutes() {
+export  default function MainRoutes() {
     return (
     <Router>
         <Routes>

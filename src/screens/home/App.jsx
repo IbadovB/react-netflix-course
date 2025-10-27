@@ -1,9 +1,10 @@
-import './App.css'
-import { useState } from 'react'
-import { useDebounce } from '../hooks/useDebounce'
-import  MovieCard from '.MovieCard'
-import { MOVIES } from './home/movies.data'
-import { useTheme } from '../hooks/useTheme'  
+import "../../App.css";
+import { useState, useMemo, useCallback } from 'react'
+import { useDebounce } from "../../hooks/useDebounce";
+import  MovieCard from './MovieCard'
+import { MOVIES } from "./movies.data";
+import { useTheme } from "../../hooks/useTheme";
+
 
 
 function App() {
@@ -25,10 +26,10 @@ function App() {
         <img
           src="/netflix-logo.png"
           alt="Netflix"
-          className='h-8 w-auto'          
+          className='h-40 w-auto'          
         />
 
-        <div>
+        <div className="flex gap-2">
           <input
             type="search"
             value={searchTerm}
@@ -58,7 +59,7 @@ function App() {
               key={movie.name}
               image={movie.image}
               rating={movie.rating}
-              traillerYoutubeId={movie.traillerYoutubeId}
+              traillerYoutubeId={movie.trailerYoutubeId}
             />
           ))
         ) : (

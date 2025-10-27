@@ -1,4 +1,4 @@
-import { lazy, useMemo } from 'react'
+import { lazy, useMemo, Suspense } from 'react';
 import { useParams } from 'react-router-dom'
 import { MOVIES } from '../movies.data'
 

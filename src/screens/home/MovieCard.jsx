@@ -24,12 +24,12 @@ function MovieCard({ image, rating, trailerYoutubeId }) {
           <iframe
             width="373"
             height="210"
-            src={`https://www.youtube.com/embed/${trailerYoutubeId}?amp;controls=0`}
+            src={`https://www.youtube.com/embed/${trailerYoutubeId}?controls=0`}
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           />
         </Modal>
       )}
@@ -64,3 +64,4 @@ function MovieCard({ image, rating, trailerYoutubeId }) {
     </div>
   )
 }
+export default memo(MovieCard);

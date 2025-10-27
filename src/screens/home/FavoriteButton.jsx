@@ -1,4 +1,4 @@
-import { nemo, useState } from "react";
+import { memo, useState } from "react";
 
 function FavoriteButton() {
   const [isFavorite, setIsFavorite] = useState(false)
