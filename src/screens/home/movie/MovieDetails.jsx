@@ -25,10 +25,10 @@ export function MovieDetails() {
                 <img
                     src={movie.image}
                     alt={movie.name}
-                    className='w-3/2 md:w-1/3 rounded-xl 
+                    className='w-2/3 md:w-1/3 rounded-xl 
                     shadow-lg object-cover'
                 />
-                <div className="flex-1" space-y-4>
+                <div className="flex-1 space-y-4">
                     <h1 className='text-4xl font-bold'>{movie.name}</h1>
                     <p className='text-sm text-gray-400'>IMDb: {movie.rating}</p>
 

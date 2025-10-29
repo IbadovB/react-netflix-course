@@ -4,6 +4,7 @@ export const MOVIES = [
     image: '/narcos.jpg',
     rating: 8.8,
     trailerYoutubeId: 'xl8zdCY-abw'
+    
   },
   {
     name: 'Final Space',

@@ -6,7 +6,6 @@ import { MOVIES } from "./movies.data";
 import { useTheme } from "../../hooks/useTheme";
 
 
-
 function App() {
   const { theme, toggleTheme } = useTheme()
 
