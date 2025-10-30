@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { MOVIES } from '../movies.data'
 
 const LazyMovieComments = lazy(() =>
-     import('./MovieComments').then(c => ({
+     import('./MovieComments.jsx').then(c => ({
     default: c.MovieComments
 }))
 )
